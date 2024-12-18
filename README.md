@@ -1,0 +1,3 @@
+# Python RecursionError Example
+
+This repository demonstrates a common error in recursive functions in Python: exceeding the maximum recursion depth.  The `factorial.py` file contains a flawed factorial function that does not properly handle negative inputs, leading to infinite recursion and a `RecursionError`.  The solution, `factorialSolution.py`, addresses this by adding input validation and a proper base case.
